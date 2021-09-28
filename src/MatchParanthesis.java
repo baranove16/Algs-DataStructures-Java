@@ -34,7 +34,9 @@ public class MatchParanthesis {
         return stack.empty();
     }
 
-    //O(n) time complexity
+    //One for-loop with time complexity of O(n)
+    //if/else statements are constant time O(1) -- no effect to the time complexity of algorithm
+    //Time complexity of algorthm O(n)
 
   
 }
