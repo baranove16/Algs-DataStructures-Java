@@ -47,33 +47,6 @@ public class Node {
       }
     }
 
-    public static void SelectionSort1 (Node head)
-    {
-     Node min = head;
-     Node current = min;
-     Node t = current.next;
-     
-
-     if (min.value > t.value) { min = t;}
-        t = t.next;
-
-        int i = current.value;
-        current.value = min.value;
-        min.value = i;
-        current = t;
-
-   
-     while (t != null)
-        {   if (min.value > t.value) { min = t;}
-            t = t.next;
-
-            i = current.value;
-            current.value = min.value;
-            min.value = i;
-            current = t;
-         }
-    }
-
 }
     
 
