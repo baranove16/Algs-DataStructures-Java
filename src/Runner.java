@@ -13,12 +13,11 @@ public class Runner {
         head = Node.push(head, 3);
         head = Node.push(head, 16);
         Node.PrintList(head);
+        //prints list before sort
 
         Node.SelectionSortList(head);
         Node.PrintList(head);
-
-        //Node.SelectionSort1(head);
-       // Node.PrintList(head);
+        //prints list after selection sort
         
 
         
